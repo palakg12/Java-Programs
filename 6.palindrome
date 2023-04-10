@@ -1,4 +1,4 @@
-To find out whether the given String is Palindrome or not.
+To find out whether the given String is Palindrome or not:
 
 import java.util.*;   
 class Main 
