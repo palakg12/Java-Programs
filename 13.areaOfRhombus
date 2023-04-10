@@ -1,0 +1,15 @@
+Area of Rhombus
+
+import java.util.Scanner;
+public class AreaOfCircle {
+   public static void main(String args[]){
+      int breadth,height, area;
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter the breadth::");
+      breadth = sc.nextInt();
+      System.out.println("Enter the height::");
+      height = sc.nextInt();
+      area = (breadth*height )/2;
+      System.out.println("Area of the circle is ::"+area);
+   }
+}

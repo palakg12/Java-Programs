@@ -1,0 +1,15 @@
+Area of Triangle
+
+import java.util.Scanner;
+public class AreaOfCircle {
+   public static void main(String args[]){
+      int base , height , area;
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Enter the base::");
+      base = sc.nextInt();
+      System.out.println("Enter the height::");
+      height = sc.nextInt();
+      area = (base * height )/2;
+      System.out.println("Area of the circle is ::"+area);
+   }
+}
